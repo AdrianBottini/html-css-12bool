@@ -1,6 +1,7 @@
 .row {
-    background-color: white;
+    background-color: gold;
     border: 2px solid black;
+    padding: 1rem;
 }
 
 [class^=col] {
