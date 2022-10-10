@@ -1,13 +1,39 @@
-.row {
-    background-color: gold;
-}
-
 [class^=col] {
     background-color: blue;
     border: 2px solid white;
-    height: 50px;
     color: white;
-    display: flex;
+    text-align: center;
+    padding: .3rem;
+}
+
+.green {
+    background-color: lawngreen;
+    border: 2px solid blue;
+    color: white;
+}
+
+.green2 {
+    background-color: lawngreen;
+    border: 2px solid blue;
+    padding: 1rem;
+}
+
+.start {
+    justify-content: start;
+}
+
+.center {
     justify-content: center;
-    align-items: center;
+}
+
+.end {
+    justify-content: end;
+}
+
+.grande {
+    padding: 2rem;
+}
+
+.top {
+    padding: 1rem;
 }
