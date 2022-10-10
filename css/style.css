@@ -31,9 +31,35 @@
 }
 
 .grande {
-    padding: 2rem;
+    height: 100px;
+}
+
+.piccola {
+    height: 50px;
 }
 
 .top {
-    padding: 1rem;
+    align-items: flex-start;
+}
+
+.middle {
+    align-items: center;
+}
+
+.bottom {
+    align-items: flex-end;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.green3 {
+    background-color: lawngreen;
+    border: 2px solid blue;
+    padding: 1.5rem;
+}
+
+.between {
+    justify-content: space-between;
 }
